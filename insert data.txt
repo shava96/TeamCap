@@ -1,0 +1,13 @@
+insert into customerdetail (CUSTOMERNAME,CUSTOMEREMAIL,MOBILENO,ADDRESS,PINCODE) 
+values('vats','vats@capgemini.com','7982042629','delhi',110030); 
+
+
+insert into merchantdetail (MERCHANTNAME,MERCHANTEMAIL,MERCHANTADDRESS,STORENAME,MOBILENO,MERCHANTFEEDBACK) 
+values('pk','pk@capgemini.com','thane','pkstores','8822334455','good');
+
+
+insert into productdetail (MERCHANTID,PRODUCTNAME,PRODUCTPRICE,PRODUCTQUANTITY,DISCOUNTOFFERED,PRODUCTCATEGORY,PRODUCTTYPE,PRODUCTBRAND,PRODUCTMODEL,PRODUCTFEATURES,PRODUCTRATING,PRODUCTFEEDBACK)
+values(2000,'iphone x',77000,10,10,'electronics','mobile','apple','X','Face Lock',5,'Excellent'); productdetail
+
+
+insert into wishlist values (10000,300000,1,69300);
